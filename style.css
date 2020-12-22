@@ -1,37 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+:root{
+    --dark-yellow: #FDE047;
+    --mid-yellow: #FEF08A;
+    --light-yellow: #FEF9C3;
+    --dark-gray:#57534E;
+}
+body{
+    margin: 0rem;
+    background-color: var(--light-yellow);
+    color: var(--dark-gray);
+    font-family: 'Caveat', cursive;
+}
 .text-area{
     display: block;
     /* max-width: 900px; */
+    background-color: var(--mid-yellow);
     width: 60%;
     height: 10vh;
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
-    margin-bottom: 2rem;
-    margin-top:2rem ;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem ;
 }
-.button-area{
 
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.navigation {
+    background-color: var(--dark-yellow);
+    color: var(--dark-green);
+    padding: 2rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.nav-brand {
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+
+
+.button-area{
+    background-color:var(--dark-yellow);
     display: block;
     margin: auto;
-    margin-bottom: 2rem;
-    margin-top:2rem ;
+    margin-bottom: 1rem;
+    margin-top:1rem ;
     padding: 1rem 1.5rem;
+    border-radius: 1rem;
     
 }
 
 #output{
     display: block;
+    background-color:var(--mid-yellow);
     width: 60%;
-    border: 1px solid black;
+    border: 1px solid var(--dark-gray);
     height: 10vh;
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
-    margin-bottom: 2rem;
-    margin-top:2rem ;
+    margin-bottom: 1rem;
+    margin-top:0.5rem ;
 
 }
 .output-text{
     text-align: center;
-    font-size: x-large;
-    margin-bottom: 2rem;
-    margin-top:2rem ;
+    font-size: xx-large;
+    margin: 0.5rem 0rem;
 }
+
+.hero {
+    padding: 0.5rem;
+    margin: auto;
+  }
+  .hero .hero-img {
+    display: block;
+    max-width: 40%;
+    width: 350px;
+  }
+
+  .footer {
+    background-color: var(--dark-yellow);
+    color:var(--dark-gray);
+    padding: 0.5rem;
+    text-align: center;
+    border-top-right-radius: 2rem;
+  }
+  
+  .footer .footer-header {
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 0.5rem;
+  }  
