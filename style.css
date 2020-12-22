@@ -42,7 +42,7 @@ body{
 
 .nav-brand {
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: 3rem;
     
 }
 
@@ -95,7 +95,14 @@ body{
   }
   
   .footer .footer-header {
+    text-align: center;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: xx-large;
     padding: 0.5rem;
   }  
+
+  .footer div{
+      margin: 0rem 3rem;
+      padding: 0.5rem 0.5rem;
+      text-align: left;
+  }
